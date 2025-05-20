@@ -1,0 +1,237 @@
+* {
+    font-style: italic;
+    font-weight: 500;
+}
+
+body {
+    font-size: 22px;
+    background-image: url(https://ocean.si.edu/sites/default/files/styles/full_width_largest/public/2023-11/25691336465_982637ea03_o.jpg.webp?itok=mJN3BTUb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.brown {
+    color: brown;
+}
+
+.blue {
+    color: aquamarine;
+}
+
+#purple {
+    color: purple;
+}
+
+.size {
+    font-size: 60px;
+    color: blue;
+}
+
+.color {
+    color: blueviolet;
+}
+
+.highlight {
+    background-color: darkgreen
+}  
+
+p {
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.border { border-style: outset;
+          border-width: 5px;
+          border-color: gold;
+    border-radius: 10px
+          padding: 5px
+
+ }
+
+#box1 {
+border: 5px;
+width: 250px;
+height: 250px;
+font-size: 22px;
+background: greenyellow;
+/* padding: 50px; 
+
+margin-top: 5opx;
+margin-left: 50px;
+margin-right: px;
+  */
+}
+
+#box2 {
+    border: 5px;
+width: 250px;
+height: 500px;
+font-size: 22px;
+background: dodgerblue;
+/*  
+padding: 50px;
+margin-top: 5opx;
+margin-left: 50px;
+margin-right: px;
+*/
+}
+
+img {
+    float: right;
+}
+
+.block {
+    float: left;
+    width: 100;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: tomato;
+    
+}
+
+#circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+      
+}
+
+#circle2 { 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 191, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    }
+
+a:link {
+    color: rgb(238, 144, 144);
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:active {
+    color: yellow;
+}
+
+button:hover {
+    background-color: blue;
+
+}
+
+button:active{
+    background-color: white;
+}
+
+/* li:nth-child(4){ 
+    background-color: yellow;
+    */
+
+
+li:nth-child(even){
+    background-color: yellow;
+}
+
+h2 {
+    text-shadow: 5px 5px 5px yellow, 0px
+     -5px 5px red;
+     box-shadow: 5px 5px 5px black;
+    
+}
+
+h2:hover { 
+        box-shadow: 5px 5px 5px black;
+}
+
+h1:hover {
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.fa-user {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: lightgreen;
+
+    
+}
+
+.fa-user:hover {
+    color: blue;
+}
+
+table {
+    width: 80px;
+    border-collapse: collapse;
+   
+    
+ }
+
+
+ th {
+     background-color: #4caf50;
+     color: white;
+     text-align: center;
+     padding: 15px;
+     width: 700px;
+     border: 2px solid white;
+     border-collapse: collapse;
+     font-size: 18px;
+     
+ }
+
+ td {
+     padding: 12px;
+     font-size: 16px;
+     border: 2pxsolid white;
+     text-align: left;
+ }
+
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
+
+ tr:last-child {
+     background-color: #f2f2f2;
+ } 
+
+.signup {
+    color: blue;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px ;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, blue, alpha);
+
+
+}
